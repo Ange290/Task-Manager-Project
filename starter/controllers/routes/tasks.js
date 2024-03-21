@@ -7,4 +7,4 @@ router.route('/:id').get(getSingleTask);
 router.route('/:id').patch(updateTask);
 router.route('/:id').delete(deleteTask);
 
- module.exports = router
+ module.exports = router;
